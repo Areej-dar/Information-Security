@@ -28,14 +28,3 @@ Ensure you have Python installed along with the required libraries:
 pip install watchdog psutil scipy
 Place the script and the necessary folders (monitor and backup) in the same directory, then run:
 python ransomware_detection.py
-
-## 🛠️ Technologies Used
-Python: Core programming language
-Watchdog: For monitoring file system events
-Psutil: For tracking system resource usage
-Scipy: For entropy calculation
-
-## 📝 Future Improvements
-Integration of machine learning models for advanced threat detection.
-Real-time behavioral analysis to detect new ransomware patterns.
-Centralized dashboard for system monitoring and management.
