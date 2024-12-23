@@ -2,7 +2,7 @@
 
 This project is a Python-based system designed to detect and protect against ransomware attacks. It utilizes file monitoring, resource usage analysis, and entropy checks to identify suspicious activity, safeguard data, and respond promptly to potential threats.
 
-## 📚 Features
+## Features
 
 1. **File Monitoring and Guarding**:
    - Monitors changes in file integrity using SHA-256 hash and entropy calculations.
@@ -25,6 +25,10 @@ This project is a Python-based system designed to detect and protect against ran
 Ensure you have Python installed along with the required libraries:
 
 ```bash
-pip install watchdog psutil scipy
+    pip install watchdog psutil scipy
+```
 Place the script and the necessary folders (monitor and backup) in the same directory, then run:
-python ransomware_detection.py
+
+```bash
+    python ransomware_detection.py
+```
